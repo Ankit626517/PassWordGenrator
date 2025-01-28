@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- heading -->
+        <h1>Password_Generator</h1>
+        <div class="display-container">
+            <input type="text" readonly placeholder="Password" data-passwordDisplay>
+
+
+            <button data-copy>
+                <span data-copyMsg>copied</span>
+                <img src="./copy.png" width="24" height="23" alt="image not found" />
+            </button>
+
+        </div>
+
+        <div class="input-container">
+            <div class="legnth-container">
+                <p>Password length</p>
+                <p data-lengthNumber>0</p>
+            </div>
+
+            <!-- Slider  -->
+
+
+            <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
+
+
+            <!-- checkbox -->
+
+            <div>
+                <input type="checkbox" id="uppercase">
+                <lable for="Uppercase">Includes UpperCase letters</lable>
+            </div>
+            <div>
+                <input type="checkbox" id="lowercase">
+                <lable for="lowerCase">Includes lowerCaseletters</lable>
+            </div>
+            <div>
+                <input type="checkbox" id="numbers">
+                <lable for="numbers">Includes Numbers </lable>
+            </div>
+            <div>
+                <input type="checkbox" id="symbol">
+                <lable for="symbol">Includes symbol </lable>
+            </div>
+
+
+            <!-- Strength Section  -->
+             <div class="srength-container">
+                <p>Strength</p>
+                <div data-indicator></div>
+
+             </div>
+
+             <!-- genrate Password -->
+              <button class="genrateButton">Genrate Password</button>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
