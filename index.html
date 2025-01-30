@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Genrator</title>
+    <link rel="stylesheet" href="./Index.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
         <!-- heading -->
         <h1>Password_Generator</h1>
         <div class="display-container">
-            <input type="text" readonly placeholder="Password" data-passwordDisplay>
+            <input type="text"  placeholder="Password" data-passwordDisplay>
 
 
             <button data-copy>
@@ -51,18 +52,15 @@
             <div>
                 <input type="checkbox" id="symbol">
                 <lable for="symbol">Includes symbol </lable>
-            </div>
-
-
-            <!-- Strength Section  -->
-             <div class="srength-container">
+            </div <!-- Strength Section -->
+            <div class="srength-container">
                 <p>Strength</p>
                 <div data-indicator></div>
 
-             </div>
+            </div>
 
-             <!-- genrate Password -->
-              <button class="genrateButton">Genrate Password</button>
+            <!-- genrate Password -->
+            <button class="genrateButton">Genrate Password</button>
 
 
 
