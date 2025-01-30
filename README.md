@@ -1,0 +1,1 @@
+This password generator is a user-friendly and interactive tool designed to create secure and customizable passwords. Users can specify the password length and select character types, including uppercase letters, lowercase letters, numbers, and special symbols.
